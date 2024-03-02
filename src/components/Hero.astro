@@ -1,30 +1,68 @@
 ---
-
+import { t } from 'i18next';
+import logoImage from '@/assets/images/logo.jpeg';
 ---
 
 <section>
-  <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24">
-    <div class="flex flex-col w-full mb-12 text-center">
-      <div
-        class="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 mx-auto mb-5 text-blue-600 rounded-full bg-gray-50"
-      >
-        <img src="./images/logo.png" alt="Super Raffler" />
+  <div class="flex items-center justify-center">
+    <div class="px-12 py-6">
+      <div class="text-center">
+        <h2 class="header">
+          {t('index.participate-heading')}
+        </h2>
+        <span class="text-xl font-semibold">{t('index.participate-subheading')}</span>
+        <div class="w-full py-10 text-center">
+          <form @submit.prevent="checkRaffle">
+            <div class="flex items-center max-w-lg p-1 pr-0 mx-auto">
+              <input
+                class="flex-auto p-3 mr-2 text-base font-medium text-center text-gray-900 placeholder-gray-500 uppercase bg-white border rounded-lg shadow focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                type="text"
+                required
+                maxlength="8"
+                placeholder={t('index.enter-code')}
+              />
+              <button class="bigButton" type="submit">
+                {t('index.btn-participate')}
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
-      <h1
-        class="max-w-5xl text-2xl font-bold leading-none tracking-tighter text-neutral-600 md:text-5xl lg:text-6xl lg:max-w-7xl"
-      >
-        Win Big! <br class="hidden lg:block" />
-         Offer exciting Prize Draws!
-      </h1>
-
-      <p class="max-w-xl mx-auto mt-8 text-base leading-relaxed text-center text-gray-500">
-        Your chance to participate in the most exciting online prize draws!
-        <br />Need to offer something exciting to your online viewers?
-      </p>
-
-      <a class="mx-auto mt-8 text-sm font-semibold text-blue-600 hover:text-neutral-600" title="read more">
-        Start now »
-      </a>
     </div>
   </div>
 </section>
+<section>
+  <div class="px-4 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24">
+    <div class="flex flex-col items-center w-full pb-4 text-center">
+      <div class="inline-flex items-center justify-center flex-shrink-0 w-32 h-32 mx-auto mb-5 rounded-full bg-gray-50">
+        <img class="w-32 h-32 rounded-full" src={logoImage.src} alt="Super Raffler" />
+      </div>
+      <h1 class="header">
+        {t('index.create-heading')}
+      </h1>
+
+      <span class="text-xl font-semibold">
+        {t('index.create-subheading')}
+      </span>
+
+      <div class="w-full py-5 text-center">
+        <button class="bigButton">{t('index.btn-register')}</button>
+        <button class="outlineButton">{t('index.link-howto')}</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .header {
+    @apply w-full my-3 text-5xl font-semibold font-abel leading-tight;
+  }
+
+  .bigButton {
+    @apply w-2/5 p-3 font-semibold text-white rounded shadow bg-primary hover:bg-secondary;
+  }
+
+  .outlineButton {
+    @apply w-2/5 p-3 font-semibold text-fCyan-800 rounded shadow bg-transparent hover:bg-primary hover:text-white;
+  }
+</style>

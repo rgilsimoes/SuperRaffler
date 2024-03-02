@@ -2,6 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "vscode-edge-devtools.debug",
+      "request": "attach",
+      "name": "Attach to Microsoft Edge and open the Edge DevTools",
+      "url": "http://localhost:4321",
+      "webRoot": "${workspaceFolder}/src"
+    },
+    {
+      "type": "vscode-edge-devtools.debug",
+      "request": "launch",
+      "name": "Launch Microsoft Edge and open the Edge DevTools",
+      "url": "http://localhost:4321",
+      "webRoot": "${workspaceFolder}/src"
+    },
+    {
       "command": "./node_modules/.bin/astro dev",
       "name": "Development server",
       "request": "launch",
