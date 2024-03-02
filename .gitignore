@@ -1,0 +1,61 @@
+# build output
+dist/
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+.vercel/output/config.json
+.vercel/output/functions/_render.func/.vc-config.json
+.vercel/output/functions/_render.func/package.json
+.vercel/output/functions/_render.func/.vercel/output/_functions/_noop-middleware.mjs
+.vercel/output/functions/_render.func/.vercel/output/_functions/entry.mjs
+.vercel/output/functions/_render.func/.vercel/output/_functions/manifest_XWW6PwRY.mjs
+.vercel/output/functions/_render.func/.vercel/output/_functions/renderers.mjs
+.vercel/output/functions/_render.func/.vercel/output/_functions/chunks/404_giB32Cc0.mjs
+.vercel/output/functions/_render.func/.vercel/output/_functions/chunks/about_d_DmuV0f.mjs
+.vercel/output/functions/_render.func/.vercel/output/_functions/chunks/astro_2-HWVXfr.mjs
+.vercel/output/functions/_render.func/.vercel/output/_functions/chunks/generic_r10eN7Ov.mjs
+.vercel/output/functions/_render.func/.vercel/output/_functions/chunks/index__fpNCCK4.mjs
+.vercel/output/functions/_render.func/.vercel/output/_functions/chunks/prerender_-wohwPYv.mjs
+.vercel/output/functions/_render.func/.vercel/output/_functions/chunks/vnode-children_3wEZly-Z.mjs
+.vercel/output/functions/_render.func/.vercel/output/_functions/chunks/astro/assets-service_aDq38qDm.mjs
+.vercel/output/functions/_render.func/.vercel/output/_functions/chunks/pages/generic_kYr1fX-p.mjs
+.vercel/output/static/404.html
+.vercel/output/static/index.html
+.vercel/output/static/_astro/about.m3rAbUlt.css
+.vercel/output/static/_astro/client.ZuanqE6Z.js
+.vercel/output/static/_astro/logo.RJGJcOgl.png
+.vercel/output/static/about/index.html
+.vercel/output/static/i18n/en/en.json
+.vercel/output/static/i18n/es/es.json
+.vercel/output/static/i18n/pt/translation.json
+.vercel/output/static/icons/android-chrome-192x192.png
+.vercel/output/static/icons/android-chrome-512x512.png
+.vercel/output/static/icons/apple-touch-icon.png
+.vercel/output/static/icons/browserconfig.xml
+.vercel/output/static/icons/favicon-16x16.png
+.vercel/output/static/icons/favicon-32x32.png
+.vercel/output/static/icons/favicon.ico
+.vercel/output/static/icons/icon.png
+.vercel/output/static/icons/mstile-150x150.png
+.vercel/output/static/icons/safari-pinned-tab.svg
+.vercel/output/static/icons/site.webmanifest

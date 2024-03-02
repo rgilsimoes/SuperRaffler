@@ -1,0 +1,52 @@
+---
+import '@/styles/globals.css';
+import '@/styles/fonts.css';
+
+interface Props {
+  title?: string | undefined;
+  description?: string | undefined;
+  ogImage?: URL | undefined;
+}
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+if (Astro.props.ogImage === undefined) {
+  Astro.props.ogImage = new URL('og-image.png', canonicalURL);
+}
+
+const { title, description, ogImage } = Astro.props;
+---
+
+<meta charset="utf-8" />
+<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content={Astro.generator} />
+<link rel="canonical" href={canonicalURL} />
+<title>{title}</title>
+<meta name="title" content={title} />
+<meta name="description" content={description} />
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content={canonicalURL} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={ogImage} />
+
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content={canonicalURL} />
+<meta property="twitter:title" content={title} />
+<meta property="twitter:description" content={description} />
+<meta property="twitter:image" content={ogImage} />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
+<link rel="manifest" href="/icons/site.webmanifest" />
+<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5" />
+<link rel="shortcut icon" href="/icons/favicon.ico" />
+<meta name="apple-mobile-web-app-title" content="Super Raffler" />
+<meta name="application-name" content="Super Raffler" />
+<meta name="msapplication-TileColor" content="#00aba9" />
+<meta name="msapplication-config" content="/icons/browserconfig.xml" />
+<meta name="theme-color" content="#ffffff" />

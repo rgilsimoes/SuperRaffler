@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* CSS HEX */
+    --fluorescent-cyan: #6cf3e3ff;
+    --delft-blue: #172e4fff;
+    --teal: #2d8289ff;
+    --white: #fafefeff;
+    --indigo-dye: #15425aff;
+
+    /* CSS HSL */
+    --fluorescent-cyan: hsla(173, 85%, 69%, 1);
+    --delft-blue: hsla(215, 55%, 20%, 1);
+    --teal: hsla(185, 51%, 36%, 1);
+    --white: hsla(180, 67%, 99%, 1);
+    --indigo-dye: hsla(201, 62%, 22%, 1);
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 215, 55%, 20%;              /* dBlue */
+    --card: 0 0% 100%;
+    --card-foreground: 215, 55%, 20%;         /* dBlue */
+    --popover: 0 0% 100%;
+    --popover-foreground: 215, 55%, 20%;      /* dBlue */
+    --primary: 185, 51%, 36%;                 /* Teal  */
+    --primary-foreground: 210 20% 98%;
+    --secondary: 173, 85%, 69%;               /* fCyan */
+    --secondary-foreground: 220.9 39.3% 11%;
+    --muted: 220 14.3% 95.9%;
+    --muted-foreground: 220 8.9% 46.1%;
+    --accent: 220 14.3% 95.9%;                /* Grey */
+    --accent-foreground: 220.9 39.3% 11%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 262.1 83.3% 57.8%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71.4% 4.1%;
+    --foreground: 210 20% 98%;
+    --card: 224 71.4% 4.1%;
+    --card-foreground: 210 20% 98%;
+    --popover: 224 71.4% 4.1%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 263.4 70% 50.4%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 215 27.9% 16.9%;
+    --secondary-foreground: 210 20% 98%;
+    --muted: 215 27.9% 16.9%;
+    --muted-foreground: 217.9 10.6% 64.9%;
+    --accent: 215 27.9% 16.9%;
+    --accent-foreground: 210 20% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 215 27.9% 16.9%;
+    --input: 215 27.9% 16.9%;
+    --ring: 263.4 70% 50.4%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

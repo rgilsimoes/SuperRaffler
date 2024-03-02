@@ -1,0 +1,126 @@
+{
+  "account": {
+    "account-data": "Account Details",
+    "btn-update": "Update",
+    "channel-url-placeholder": "Enter your live channel URL",
+    "channelURL": "Channel URL",
+    "confirm-password": "Re-type password",
+    "confirm-password-placeholder": "Re-type password",
+    "email": "EMail:",
+    "name": "Name:",
+    "name-placeholder": "Display Name",
+    "password": "Password:",
+    "password-placeholder": "Enter a password (min 8 characters)"
+  },
+  "global": {
+    "app-title": "Super Raffler",
+    "avatar": "Avatar",
+    "btn-close": "Close",
+    "btn-login": "Login",
+    "link-about": "About",
+    "link-help-faq": "Ajuda / FAQ",
+    "link-home": "Home",
+    "link-raffles": "Raffles",
+    "link-terms": "Privacy and Terms of use",
+    "loading-text": "Please wait...",
+    "menu": {
+      "logout": "Logout",
+      "profile": "Profile",
+      "settings": "Settings"
+    },
+    "msgs": {
+      "general-error": "There was an error:",
+      "welcome": "Welcome {name}!"
+    },
+    "participate": "Enter Raffle",
+    "sub-title": "Today could be your lucky day!"
+  },
+  "index": {
+    "btn-participate": "Participate",
+    "btn-register": "Register",
+    "create-heading": "Would you like to make a raffle with your Live viewers?",
+    "create-subheading": "Peace of cake! Lose the manual spreadsheets!",
+    "enter-code": "Enter raffle code!",
+    "link-howto": "See how it works",
+    "msgs": {
+      "email-already-registered": "This E-Mail is already registered!<br/>Keep an eye on the stream!",
+      "email-registered": "Your EMail was registered!<br/>Thank's for participating!",
+      "raffle-not-found": "This raffle does not exist or as finished!"
+    },
+    "participate-heading": "Do you want to participate in a raffle?",
+    "participate-subheading": "Enter the raffle code!",
+    "verify-raffle": "Checking raffle code."
+  },
+  "login": {
+    "btn-login-google": "Login with Google",
+    "email": "EMail Address",
+    "email-placeholer": "EMail Address",
+    "forgot_password": "Forgot Password?",
+    "login": "Log In",
+    "logout": "Log Out",
+    "msgs": {
+      "logged-in": "If you aren't {email}<br/>then logout!"
+    },
+    "password": "Password",
+    "register": "Register",
+    "start-heading": "Start raffling"
+  },
+  "raffles": {
+    "btn-cancelar": "Cancel",
+    "btn-close": "Close",
+    "btn-confirm": "Confirm",
+    "btn-new": "New",
+    "btn-raffle": "Draw",
+    "btn-update": "Update",
+    "btn-view": "View",
+    "code": "Raffle Code:",
+    "create-date": "Raffle Date:",
+    "create-date-placeholder": "Raffle Date",
+    "draw-winners": "Draw Winners",
+    "generate": "Generate",
+    "liveUrl": "Live URL:",
+    "liveUrl-placeholder": "Live URL",
+    "msgs": {
+      "loading-participants": "Loading participants...",
+      "no-participants-found": "No participants registered yet!",
+      "no-raffles-found": "No raffles found!",
+      "raffle-created": "Raffle created!"
+    },
+    "new": "New raffle",
+    "participants": {
+      "date": "Date",
+      "email": "EMail",
+      "nick-name": "Nickname",
+      "participants": "Participants"
+    },
+    "raffles-title": "Raffles",
+    "status": [
+      "Active",
+      "Drawn",
+      "Canceled"
+    ],
+    "status-header": "Status",
+    "view-raffle": "Raffle",
+    "winners": "Winners:",
+    "winners-placeholder": "Number of winners"
+  },
+  "register": {
+    "btn-confirm": "Confirm",
+    "channel-url": "Channel URL",
+    "channel-url-placeholder": "Channel URL",
+    "confirmpassword": "Retype password",
+    "confirmpassword-placeholder": "Retype password",
+    "email": "Your EMail:",
+    "email-placeholder": "Email",
+    "header": "Enter your information",
+    "msgs": {
+      "error-email-exists": "Email allready exists. <br/>Please login instead.",
+      "error-pass-weak": "Password is to weak",
+      "error-password-mismatch": "Passwords don't match"
+    },
+    "name": "Name:",
+    "name-placeholder": "Display Name",
+    "nickname-placeholder": "Enter your Nickname",
+    "password-placeholder": "Enter a new password (min 8 characters)"
+  }
+}

@@ -1,0 +1,41 @@
+---
+import MainLayout from '@/layouts/MainLayout.astro';
+import { buttonVariants } from '@/components/ui/button';
+import Hero from '../components/Hero.astro';
+---
+
+<MainLayout title="Super Raffler" description="Super Raffler - Your favorite raffle generator">
+  <content>
+    <section>
+      <div class="flex items-center justify-center">
+        <div class="px-12 py-6">
+          <div class="text-center">
+            <h2 class="w-full my-3 text-5xl font-semibold font-abel leading-light font-heading">Participa</h2>
+            <span class="text-xl font-semibold">Tens um código?</span>
+            <div class="w-full py-10 text-center">
+              <form @submit.prevent="checkRaffle">
+                <div class="flex items-center max-w-lg p-1 pr-0 mx-auto">
+                  <input
+                    v-model="raffleCode"
+                    type="text"
+                    required
+                    maxlength="8"
+                    :placeholder="$t('index.enter-code')"
+                    class="flex-auto p-3 mr-2 font-medium text-base text-gray-900 placeholder-gray-500 bg-white border border-transparent border-gray-400 rounded-lg shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent uppercase"
+                  />
+                  <button
+                    type="submit"
+                    class="w-2/5 p-3 font-semibold text-white bg-purple-600 rounded shadow hover:bg-purple-700"
+                  >
+                    Participar
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <Hero />
+  </content>
+</MainLayout>

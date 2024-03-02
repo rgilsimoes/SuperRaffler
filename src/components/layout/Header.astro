@@ -1,0 +1,41 @@
+---
+import i18next, { t } from 'i18next';
+import { Button, buttonVariants } from '@/components/ui/button';
+import ThemeToggle from '@/components/layout/ThemeToggle.astro';
+import Language from '@/components/layout/Language.astro';
+import PaypalDonate from '@/components/PaypalDonate.astro';
+import logoImage from '@/assets/images/logo.png';
+---
+
+<header
+  class="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
+>
+  <div class="container flex items-center h-16 space-x-4 sm:justify-between sm:space-x-0">
+    <div class="flex gap-6 md:gap-10">
+      <div class="flex items-center space-x-2">
+        <div class="flex-shrink-0">
+          <a href="/"><img class="w-8 h-8" src={logoImage.src} alt="Super Raffler" /></a>
+        </div>
+        <div class="flex-shrink-0">
+          <a href="/" class="antialiased font-bold sm:text-xs md:text-2xl overflow-ellipsis"
+            ><h1>{t('global.app-title')}</h1></a
+          >
+        </div>
+        <!-- Top Menu -->
+        <div class="md:block">
+          <div class="flex items-baseline ml-10">
+            <Button variant="outline">Raffles</Button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex items-center justify-end flex-1">
+      <nav class="flex items-center space-x-1">
+        <Button variant="outline">Sign In</Button>
+        <ThemeToggle />
+        <Language />
+        <PaypalDonate />
+      </nav>
+    </div>
+  </div>
+</header>

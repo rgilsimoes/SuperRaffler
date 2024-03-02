@@ -1,0 +1,8 @@
+# .vscode/i18n-ally-custom-framework.yml
+languageIds:
+  - javascript
+  - typescript
+  - javascriptreact
+  - typescriptreact
+  - html
+  - markdown

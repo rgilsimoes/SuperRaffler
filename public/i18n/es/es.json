@@ -1,0 +1,114 @@
+{
+  "account": {
+    "account-data": "Detalles de la cuenta",
+    "btn-update": "Actualizar",
+    "channel-url-placeholder": "URL del canal de transmisiones en vivo",
+    "channelURL": "URL del canal:",
+    "confirm-password": "Confirmación:",
+    "confirm-password-placeholder": "Confirmar Contraseña",
+    "email": "Correo electrónico:",
+    "name": "Nombre:",
+    "name-placeholder": "Nombre corto",
+    "password": "Contraseña:",
+    "password-placeholder": "Contraseña:"
+  },
+  "global": {
+    "app-title": "Super Raffler",
+    "avatar": "Avatar",
+    "btn-close": "Cerca",
+    "btn-login": "Entrar",
+    "link-about": "Acerca de",
+    "link-help-faq": "Preguntas Frecuentes",
+    "link-home": "Início",
+    "link-raffles": "Sorteos",
+    "link-terms": "Privacidad y condiciones de uso",
+    "loading-text": "Mantener...",
+    "menu": {
+      "logout": "Cerrar sesión",
+      "profile": "Perfil",
+      "settings": "Definiciones"
+    },
+    "msgs": {
+      "general-error": "Ocurrio un error:",
+      "welcome": "Bienvenido {name}!"
+    },
+    "participate": "Participar en el sorteo",
+    "sub-title": "¡Hoy puede ser tu día de suerte!"
+  },
+  "index": {
+    "btn-participate": "Para participar",
+    "btn-register": "Inscribirse",
+    "create-heading": "¿Quieres hacer un sorteo con quien esté viendo tus \"Lives\"?",
+    "create-subheading": "¡Es fácil! ¡Olvídese de los procesos manuales!",
+    "enter-code": "¡Ingrese el código de sorteo!",
+    "link-howto": "Mira como funciona",
+    "msgs": {
+      "email-already-registered": "¡Este correo electrónico ya está registrado! <br/> ¡Estén atentos a Live para el sorteo!",
+      "email-registered": "¡Su correo electrónico ha sido registrado! <br/> ¡Gracias por participar!",
+      "raffle-not-found": "¡Este sorteo no existe o ya ha finalizado!"
+    },
+    "participate-heading": "¿Quieres participar en un sorteo?",
+    "participate-subheading": "¡Ingrese el código de sorteo!",
+    "verify-raffle": "Comprobando el código"
+  },
+  "login": {
+    "btn-login-google": "Iniciar sesión con Google",
+    "email": "Dirección de correo electrónico",
+    "email-placeholer": "Dirección de correo electrónico",
+    "forgot_password": "¿Recuperar contraseña?",
+    "login": "Entrar",
+    "logout": "Cerrar sesión",
+    "msgs": {
+      "logged-in": "¿No eres {email}? <br /> ¡Entonces, \"Cerrar sesión\"!"
+    },
+    "password": "Contraseña",
+    "register": "Registrarse",
+    "start-heading": "Empezar a sortear"
+  },
+  "raffles": {
+    "btn-cancelar": "Cancelar",
+    "btn-confirm": "Confirmar",
+    "btn-raffle": "Clasificar",
+    "btn-update": "Actualizar",
+    "code": "Código de sorteo:",
+    "create-date": "Fecha del sorteo:",
+    "create-date-placeholder": "Fecha del sorteo",
+    "generate": "Generar",
+    "liveUrl": "URL en vivo:",
+    "liveUrl-placeholder": "URL en vivo",
+    "msgs": {
+      "no-participants-found": "¡Aún no hay participantes!",
+      "no-raffles-found": "¡Aún no has creado un sorteo!",
+      "raffle-created": "Sorteo creado!"
+    },
+    "new": "Nuevo sorteo",
+    "participants": "Participantes",
+    "raffles-title": "Sorteos",
+    "status": [
+      "Activo",
+      "Ordenado",
+      "Cancelado"
+    ],
+    "view-raffle": "Sorteo de premios",
+    "winners": "Numero de ganadores:",
+    "winners-placeholder": "Numero de ganadores"
+  },
+  "register": {
+    "btn-confirm": "Confirmar",
+    "channel-url": "URL del canal:",
+    "channel-url-placeholder": "URL del canal de trasnmisiones en vivo",
+    "confirmpassword": "Confirmación:",
+    "confirmpassword-placeholder": "Confirmar la contraseña",
+    "email": "Tu correo electrónico:",
+    "email-placeholder": "Dirección de correo electrónico",
+    "header": "Introduce tus detalles",
+    "msgs": {
+      "error-email-exists": "¡El correo electrónico ya ha sido registrado! <br> Por favor, inicie sesión primero.",
+      "error-pass-weak": "¡La contraseña es demasiado débil!",
+      "error-password-mismatch": "¡Las contraseñas no coinciden!"
+    },
+    "name": "Nombre:",
+    "name-placeholder": "Nombre corto",
+    "password-placeholder": "Ingrese la contraseña (mín 8 caracteres)"
+  }
+}

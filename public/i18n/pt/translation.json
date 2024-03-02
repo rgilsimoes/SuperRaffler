@@ -1,0 +1,126 @@
+{
+  "account": {
+    "account-data": "Dados da conta",
+    "btn-update": "Actualizar",
+    "channel-url-placeholder": "URL do canal das lives",
+    "channelURL": "URL do canal:",
+    "confirm-password": "Confirmação:",
+    "confirm-password-placeholder": "Confirma a password",
+    "email": "Email:",
+    "name": "Nome:",
+    "name-placeholder": "Nome abreviado",
+    "password": "Password:",
+    "password-placeholder": "Password"
+  },
+  "global": {
+    "app-title": "Super Raffler",
+    "avatar": "Avatar",
+    "btn-close": "Fechar",
+    "btn-login": "Entrar",
+    "link-about": "Acerca",
+    "link-help-faq": "Perguntas Frequentes",
+    "link-home": "Início",
+    "link-raffles": "Sorteios",
+    "link-terms": "Privacidade e Termos de Uso",
+    "loading-text": "Aguarde...",
+    "menu": {
+      "logout": "Terminar Sessão",
+      "profile": "Perfil",
+      "settings": "Definições"
+    },
+    "msgs": {
+      "general-error": "Ocorreu um erro:",
+      "welcome": "Bem vindo {name}!"
+    },
+    "participate": "Participar no sorteio",
+    "sub-title": "Hoje pode ser o teu dia de sorte!"
+  },
+  "index": {
+    "btn-participate": "Participar",
+    "btn-register": "Regista-te",
+    "create-heading": "Queres fazer um sorteio com quem está a assitir às tuas \"Lives\"?",
+    "create-subheading": "É fácil! Esquece os processos manuais!",
+    "enter-code": "Introduz o código do sorteio!",
+    "link-howto": "Vê como funciona",
+    "msgs": {
+      "email-already-registered": "Este E-Mail já está registado!<br/> Fica atento à Live para o sorteio!",
+      "email-registered": "O teu e-mail foi registado!<br/> Obrigado por participares!",
+      "raffle-not-found": "Este sorteio não existe ou já terminou!"
+    },
+    "participate-heading": "Queres participar num sorteio?",
+    "participate-subheading": "Introduz o código do sorteio!",
+    "verify-raffle": "A verificar o código"
+  },
+  "login": {
+    "btn-login-google": "Login com o Google",
+    "email": "Endereço de E-Mail",
+    "email-placeholer": "Endereço de EMail",
+    "forgot_password": "Recuperar Password?",
+    "login": "Entrar",
+    "logout": "Terminar Sessão",
+    "msgs": {
+      "logged-in": "Não és o {email}?<br />Então faz \"Terminar Sessão\"!"
+    },
+    "password": "Password",
+    "register": "Registar",
+    "start-heading": "Começa a sortear"
+  },
+  "raffles": {
+    "btn-cancelar": "Cancelar",
+    "btn-close": "Fechar",
+    "btn-confirm": "Confirmar",
+    "btn-new": "Novo",
+    "btn-raffle": "Sortear",
+    "btn-update": "Atualizar",
+    "btn-view": "Ver",
+    "code": "Código do Sorteio:",
+    "create-date": "Data Sorteio:",
+    "create-date-placeholder": "Data Sorteio",
+    "draw-winners": "Sortear vencedores",
+    "generate": "Gerar",
+    "liveUrl": "URL da Live:",
+    "liveUrl-placeholder": "URL da Live",
+    "msgs": {
+      "loading-participants": "A carregar participantes...",
+      "no-participants-found": "Ainda não há participantes!",
+      "no-raffles-found": "Ainda não criaste nenhum sorteio!",
+      "raffle-created": "Sorteio criado!"
+    },
+    "new": "Novo Sorteio",
+    "participants": {
+      "date": "Data",
+      "email": "E-Mail",
+      "nick-name": "Nome:",
+      "participants": "Participantes"
+    },
+    "raffles-title": "Sorteios",
+    "status": [
+      "Ativo",
+      "Sorteado",
+      "Cancelado"
+    ],
+    "status-header": "Estado",
+    "view-raffle": "Sorteio",
+    "winners": "Núm. de vencedores:",
+    "winners-placeholder": "Núm. de vencedores"
+  },
+  "register": {
+    "btn-confirm": "Confirmar",
+    "channel-url": "URL do canal:",
+    "channel-url-placeholder": "URL do canal das lives",
+    "confirmpassword": "Confirmação:",
+    "confirmpassword-placeholder": "Confirme a password",
+    "email": "O teu E-Mail:",
+    "email-placeholder": "Endereço de E-Mail",
+    "header": "Introduz os teus dados",
+    "msgs": {
+      "error-email-exists": "O e-mail já foi registado!<br>Efetue antes o login.",
+      "error-pass-weak": "A password é demasiado fraca!",
+      "error-password-mismatch": "As passwords não coincidem!"
+    },
+    "name": "Nome:",
+    "name-placeholder": "Nome abreviado",
+    "nickname-placeholder": "Nome utilizador",
+    "password-placeholder": "Introduza a password (min 8 caracteres)"
+  }
+}
