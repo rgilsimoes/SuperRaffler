@@ -1,4 +1,5 @@
 ---
+import { ViewTransitions } from 'astro:transitions';
 import '@/styles/globals.css';
 import '@/styles/fonts.css';
 
@@ -50,3 +51,5 @@ const { title, description, ogImage } = Astro.props;
 <meta name="msapplication-TileColor" content="#00aba9" />
 <meta name="msapplication-config" content="/icons/browserconfig.xml" />
 <meta name="theme-color" content="#ffffff" />
+
+<ViewTransitions />

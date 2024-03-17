@@ -7,7 +7,7 @@ import astroI18next from "astro-i18next";
 // https://astro.build/config
 export default defineConfig({
   site: process.env.CI
-    ? 'https://astro-shadcn-ui-template.vercel.app'
+    ? 'https://myfutureurl.vercel.app'
     : 'http://localhost:4321',
   output: "hybrid",
   integrations: [

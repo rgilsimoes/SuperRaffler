@@ -1,7 +1,7 @@
 ---
-import HeadSEO from '@/components/layout/HeadSEO.astro';
-import Footer from '@/components/layout/Footer.astro';
-import Header from '@/components/layout/Header.astro';
+import HeadSEO from '@/layouts/components/HeadSEO.astro';
+import Footer from '@/layouts/components/Footer.astro';
+import Header from '@/layouts/components/Header.astro';
 
 interface Props {
   title?: string | undefined;
@@ -24,5 +24,6 @@ const { title, description, ogImage } = Astro.props;
       </main>
       <Footer />
     </div>
+    <script is:inline src="./node_modules/preline/preline.js"></script>
   </body>
 </html>

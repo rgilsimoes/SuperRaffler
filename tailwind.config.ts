@@ -1,7 +1,13 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+import type { Config } from "tailwindcss"
+
+const config = {
   darkMode: ["class"],
-  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
+  content: [
+    './pages/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
+    './app/**/*.{ts,tsx}',
+    './src/**/*.{ts,tsx}',
+	],
   prefix: "",
   theme: {
     container: {
@@ -12,10 +18,6 @@ export default {
       },
     },
     extend: {
-      fontFamily: {
-        nunito: ["Nunito", "sans-serif"],
-        abel: ["Abel"]
-      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -50,39 +52,6 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        fCyan: {
-          100: "#e2fdf9",
-          200: "#c4faf4",
-          300: "#a7f8ee",
-          400: "#89f5e9",
-          500: "#6cf3e3",
-          600: "#56c2b6",
-          700: "#419288",
-          800: "#2b615b",
-          900: "#16312d"
-        },
-        dBlue: {
-          100: "#d1d5dc",
-          200: "#a2abb9",
-          300: "#748295",
-          400: "#455872",
-          500: "#172e4f",
-          600: "#12253f",
-          700: "#0e1c2f",
-          800: "#091220",
-          900: "#050910"
-        },
-        iDye: {
-          100: "#d0d9de",
-          200: "#a1b3bd",
-          300: "#738e9c",
-          400: "#44687b",
-          500: "#15425a",
-          600: "#113548",
-          700: "#0d2836",
-          800: "#081a24",
-          900: "#040d12"
-        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -106,4 +75,6 @@ export default {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+} satisfies Config
+
+export default config
