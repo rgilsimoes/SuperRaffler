@@ -10,6 +10,11 @@ export default defineConfig({
     ? 'https://myfutureurl.vercel.app'
     : 'http://localhost:4321',
   output: "hybrid",
+  vite: {
+    ssr: {
+      noExternal: ["@radix-ui/*"],
+    },
+  },
   integrations: [
     react(),
     astroI18next(),

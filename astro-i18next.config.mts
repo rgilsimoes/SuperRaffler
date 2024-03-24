@@ -4,13 +4,11 @@ export default {
   locales: ["en", "es", "pt"],
   resourcesBasePath: "/i18n",
   i18nextServer: {
-    debug: false,
-    locales: ["en", "es", "pt"],
-    defaultLocale: "en",
-
+    debug: true,
+    detection: {},
   },
   i18nextClient: {
-    debug: false,
+    debug: true,
     detection: {},
   },
 };

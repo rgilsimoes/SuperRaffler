@@ -1,10 +1,13 @@
 ---
 import MainLayout from '@/layouts/MainLayout.astro';
-import Hero from '@/components/Hero.astro';
+import { SelectLanguage } from '@/components/SelectLanguage';
+
+const { pathname } = Astro.url;
 ---
 
 <MainLayout title="Super Raffler" description="Super Raffler - Your favorite raffle generator">
   <content>
-    <Hero />
+    Welcome!
+    <SelectLanguage client:load />
   </content>
 </MainLayout>

@@ -1,6 +1,8 @@
 ---
 import { t } from 'i18next';
 import logoImage from '@/assets/images/logo.jpeg';
+import { Input } from './ui/input';
+import { Button } from './ui/button';
 ---
 
 <section>
@@ -14,16 +16,18 @@ import logoImage from '@/assets/images/logo.jpeg';
         <div class="w-full py-10 text-center">
           <form @submit.prevent="checkRaffle">
             <div class="flex items-center max-w-lg p-1 pr-0 mx-auto">
-              <input
-                class="flex-auto p-3 mr-2 text-base font-medium text-center text-gray-900 placeholder-gray-500 uppercase bg-white border rounded-lg shadow focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+              <Input
                 type="text"
                 required
-                maxlength="8"
-                placeholder={t('index.enter-code')}
+                id="raffleCode"
+                placeholder={t('index.enter-code')!}
+                className="flex-auto p-3 mr-2 text-base font-medium text-center text-gray-900 placeholder-gray-500 uppercase bg-white border rounded-lg shadow focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                maxLength={8}
               />
-              <button class="bigButton" type="submit">
+
+              <Button type="submit" variant="default" size="lg">
                 {t('index.btn-participate')}
-              </button>
+              </Button>
             </div>
           </form>
         </div>

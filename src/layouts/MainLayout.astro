@@ -2,6 +2,7 @@
 import HeadSEO from '@/layouts/components/HeadSEO.astro';
 import Footer from '@/layouts/components/Footer.astro';
 import Header from '@/layouts/components/Header.astro';
+import i18next, { changeLanguage } from 'i18next';
 
 interface Props {
   title?: string | undefined;
@@ -9,10 +10,12 @@ interface Props {
   ogImage?: URL | undefined;
 }
 
+changeLanguage();
+
 const { title, description, ogImage } = Astro.props;
 ---
 
-<html lang="en">
+<html lang={i18next.language}>
   <head>
     <HeadSEO title={title} description={description} ogImage={ogImage} />
   </head>
@@ -24,6 +27,5 @@ const { title, description, ogImage } = Astro.props;
       </main>
       <Footer />
     </div>
-    <script is:inline src="./node_modules/preline/preline.js"></script>
   </body>
 </html>
